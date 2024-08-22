@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Practice Tailwind Design</title>
+  </head>
+  <body class="h-full bg-slate-950">
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   NAVBAR    +++++++++++++++++++++++++++++++++++++++++++++++   +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <nav
+      class="flex justify-between lg:p-4 md:p-3 p-2 text-black font-semibold bg-yellow-400"
+    >
+      <div class="flex items-center space-x-2">
+        <div>
+          <img
+            class="h-8 w-8 rounded-full"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKPw4CK4jcH7udsFHZdiB3iIOuI3fUCsxUZosXy4Y1yd25NA-dzCBPrSDIhg1BwObl3w&usqp=CAU"
+            alt=""
+          />
+        </div>
+        <div class="text-lg font-bold">Tailwind CSS</div>
+      </div>
+      <ul
+        class="md:flex hidden space-x-4 lg:space-x-16 md:space-x-10 items-center"
+      >
+        <li class="cursor-pointer">Home</li>
+        <li class="cursor-pointer">About</li>
+        <li class="cursor-pointer">Contact</li>
+      </ul>
+      <div class="flex items-center h-full">
+        <button
+          class="hidden md:block bg-black text-yellow-400 rounded-md py-2 px-3"
+        >
+          Login/SignUp
+        </button>
+        <a class="md:hidden text-4xl mb-2" href="#">&#8801</a>
+      </div>
+    </nav>
+  </body>
+</html>
