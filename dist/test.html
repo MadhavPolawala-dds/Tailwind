@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Practice</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div class="grid gap-2 sm:grid-cols-12 h-auto m-4">
+      <div
+        class="bg-red-500 min-h-[50px] sm:col-span-3 rounded-md text-center items-center sm:block hidden"
+      ></div>
+      <div
+        class="bg-blue-400 min-h-[50px] sm:col-span-9 lg:col-span-6 rounded-md text-center items-center grid"
+      ></div>
+      <div
+        class="bg-green-500 min-h-[50px] sm:col-span-3 rounded-md text-center items-center hidden lg:block"
+      ></div>
+    </div>
+  </body>
+</html>
